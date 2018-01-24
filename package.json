@@ -1,0 +1,15 @@
+{
+  "name": "wallaby-updater",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "update": "set NODE_TLS_REJECT_UNAUTHORIZED=0&ts-node update-wallaby.ts"
+  },
+  "author": "Maciej Warszawski",
+  "license": "MIT",
+  "devDependencies": {
+    "@types/node": "^8.5.9",
+    "ts-node": "^4.1.0",
+    "typescript": "^2.6.2"
+  }
+}
